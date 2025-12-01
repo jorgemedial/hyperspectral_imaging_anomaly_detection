@@ -1,6 +1,5 @@
 import os
 import urllib.request
-import argparse
 from pathlib import Path
 import tarfile
 import shutil
@@ -35,14 +34,13 @@ if __name__ == "__main__":
             continue
 
         outpath =  Path("./datasets") / Path("MVTecAD") / Path(f"{key}.tar.xz")
-        new_folder = Path("./datasets") / Path("MVTecAD") / Path(f"{key}")
+        new_folder = Path("./datasets") / Path("MVTecAD")
 
-        if not outpath.is_file() and not new_folder.is_dir():
+        if not outpath.is_file():
             root_logger.info(msg=f"Downloading file: {key}")
             download_file(value["url"], outpath)
             root_logger.info(msg=f"File {key} downloaded")
 
-        if not new_folder.is_dir():
             root_logger.info(msg=f"Extracting file: {key}")
             extract_archive(outpath, new_folder)
             root_logger.info(msg=f"File: {key} extracted")
