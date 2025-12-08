@@ -37,7 +37,7 @@ if __name__ == "__main__":
     simplenet = Simplenet()
     simplenet.load_state_dict(torch.load(model_filepath))
 
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cpu')
     simplenet.eval()
  
     cracked_dataset = MVTECTestset(category="hazelnut", anomaly_name="crack")

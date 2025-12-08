@@ -39,7 +39,7 @@ if __name__ == "__main__":
     optimizer = torch.optim.Adam(Simplenet.parameters())
 
     best_loss = torch.tensor(np.inf)
-    for i in range(20):
+    for i in range(50):
         for batch_idx, data in enumerate(train_loader, 1):
             optimizer.zero_grad()
 
