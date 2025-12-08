@@ -12,7 +12,7 @@ import torch.nn.functional as F
 
 
 def process_output(output):
-    anomaly_map = torch.min(output.reshape((31, 31, 512)), dim=2, keepdim=True).values
+    anomaly_map = output.reshape((31, 31, 1))
     anomaly_map = anomaly_map.permute(2, 0, 1).unsqueeze(0)
     anomaly_map_upscaled = F.interpolate(anomaly_map, scale_factor=8, mode="nearest")
     anomaly_map_final = F.pad(anomaly_map_upscaled, (4, 4, 4, 4))
@@ -32,7 +32,7 @@ def export_as_image(anomaly_map: torch.Tensor):
 
 if __name__ == "__main__":
 
-    model_filepath = "/home/jorge/anomaly_detection_project/models/hazelnut.pth"
+    model_filepath = "/home/jorge/anomaly_detection_project/models/model_new.pth"
 
     simplenet = Simplenet()
     simplenet.load_state_dict(torch.load(model_filepath))
