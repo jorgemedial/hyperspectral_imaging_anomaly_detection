@@ -3,6 +3,10 @@ from torchvision.models.feature_extraction import create_feature_extractor
 from torchvision.models import ResNet50_Weights
 import torch.nn.functional as F
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 class Simplenet(torch.nn.Module):
     def __init__(self):
         super().__init__()
@@ -61,7 +65,7 @@ class Simplenet(torch.nn.Module):
     def loss(z_scores_correct, z_scores_altered):
         correct_score = F.relu(0.5 - z_scores_correct).sum()
         altered_score = F.relu(-0.5 + z_scores_altered).sum()
-        print(f"Correct score: {correct_score}")
-        print(f"Altered score: {altered_score}")
+        logger.info(f"Correct score: {correct_score}")
+        logger.info(f"Altered score: {altered_score}")
         return  correct_score + altered_score
 

@@ -26,8 +26,14 @@ with open("training_config.json", "r") as f:
 root_logger = logging.getLogger("simplenet_training")
 root_logger.setLevel(logging.DEBUG)
 handler = logging.StreamHandler(sys.stdout)
+
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
+
+file_handler = logging.FileHandler("log.txt", mode="a", encoding="utf-8")
+file_handler.setLevel(logging.info)
+file_handler.setFormatter(formatter)
+
 root_logger.addHandler(handler)
 
 train_dataset = MVTECTrainset(category=training_config["category"])
@@ -55,7 +61,7 @@ if __name__ == "__main__":
             if loss < best_loss:
                 best_loss = loss
                 torch.save(Simplenet.state_dict(), "model.pth")
-            print(f"Epoch: {i}, batch: {batch_idx}, batch_size: {batch_size}. \nLoss {loss} \n")
-        print(f"Epoch: {i}. Best lost so far: {best_loss}")
+            root_logger.info(f"Epoch: {i}, batch: {batch_idx}, batch_size: {batch_size}. \nLoss {loss} \n")
+        root_logger(f"Epoch: {i}. Best lost so far: {best_loss}")
     
    
