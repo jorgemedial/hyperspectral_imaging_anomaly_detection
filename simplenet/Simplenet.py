@@ -60,8 +60,4 @@ class Simplenet(torch.nn.Module):
     @staticmethod
     def loss(z_scores_correct, z_scores_altered):
         return (F.relu(0.5 - z_scores_correct) + F.relu(-0.5 + z_scores_altered)).sum()
-    
-    @staticmethod
-    def determinate_anomalies(z_scores):
-        pass
-        
+

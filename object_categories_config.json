@@ -1,7 +1,7 @@
 {
     "bottle": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937370-1629958698/bottle.tar.xz",
-        "download": false
+        "download": true
     },
     "cable": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937413-1629958794/cable.tar.xz",
@@ -21,7 +21,7 @@
     },
     "hazelnut": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937545-1629959162/hazelnut.tar.xz",
-        "download": true
+        "download": false
     },
     "leather": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937607-1629959262/leather.tar.xz",
