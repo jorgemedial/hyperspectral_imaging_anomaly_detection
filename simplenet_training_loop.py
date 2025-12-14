@@ -62,6 +62,6 @@ if __name__ == "__main__":
                 best_loss = loss
                 torch.save(Simplenet.state_dict(), "model.pth")
             root_logger.info(f"Epoch: {i}, batch: {batch_idx}, batch_size: {batch_size}. \nLoss {loss} \n")
-        root_logger(f"Epoch: {i}. Best lost so far: {best_loss}")
+        root_logger.info(f"Epoch: {i}. Best lost so far: {best_loss}")
     
    
