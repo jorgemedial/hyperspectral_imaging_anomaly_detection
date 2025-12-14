@@ -31,7 +31,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 
 file_handler = logging.FileHandler("log.txt", mode="a", encoding="utf-8")
-file_handler.setLevel(logging.info)
+file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 
 root_logger.addHandler(handler)
