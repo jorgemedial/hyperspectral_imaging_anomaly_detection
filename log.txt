@@ -162,3 +162,370 @@ Loss 212.4178466796875
 Loss 54.94564437866211 
 
 2025-12-14 22:31:44,324 - simplenet_training - INFO - Epoch: 1. Best lost so far: 43.77677917480469
+2025-12-14 22:42:57,266 - simplenet.Simplenet - INFO - Correct score: 3644.14697265625
+2025-12-14 22:42:57,266 - simplenet.Simplenet - INFO - Altered score: 0.0009437203407287598
+2025-12-14 22:42:57,559 - root - INFO - Epoch: 0, batch: 1, batch_size: 8. 
+Loss 3644.14794921875 
+
+2025-12-14 22:42:57,903 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:42:57,903 - simplenet.Simplenet - INFO - Altered score: 79150.328125
+2025-12-14 22:42:57,922 - root - INFO - Epoch: 0, batch: 2, batch_size: 8. 
+Loss 79150.328125 
+
+2025-12-14 22:42:58,263 - simplenet.Simplenet - INFO - Correct score: 36799.890625
+2025-12-14 22:42:58,263 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:42:58,281 - root - INFO - Epoch: 0, batch: 3, batch_size: 8. 
+Loss 36799.890625 
+
+2025-12-14 22:42:58,620 - simplenet.Simplenet - INFO - Correct score: 9023.18359375
+2025-12-14 22:42:58,621 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:42:58,639 - root - INFO - Epoch: 0, batch: 4, batch_size: 8. 
+Loss 9023.18359375 
+
+2025-12-14 22:42:58,978 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:42:58,978 - simplenet.Simplenet - INFO - Altered score: 5614.900390625
+2025-12-14 22:42:58,996 - root - INFO - Epoch: 0, batch: 5, batch_size: 8. 
+Loss 5614.900390625 
+
+2025-12-14 22:42:59,421 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:42:59,421 - simplenet.Simplenet - INFO - Altered score: 5404.69091796875
+2025-12-14 22:42:59,439 - root - INFO - Epoch: 0, batch: 6, batch_size: 8. 
+Loss 5404.69091796875 
+
+2025-12-14 22:42:59,779 - simplenet.Simplenet - INFO - Correct score: 0.0009360313415527344
+2025-12-14 22:42:59,779 - simplenet.Simplenet - INFO - Altered score: 1122.8741455078125
+2025-12-14 22:42:59,917 - root - INFO - Epoch: 0, batch: 7, batch_size: 8. 
+Loss 1122.8751220703125 
+
+2025-12-14 22:43:00,258 - simplenet.Simplenet - INFO - Correct score: 3566.46728515625
+2025-12-14 22:43:00,258 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:00,277 - root - INFO - Epoch: 0, batch: 8, batch_size: 8. 
+Loss 3566.46728515625 
+
+2025-12-14 22:43:00,616 - simplenet.Simplenet - INFO - Correct score: 4459.0087890625
+2025-12-14 22:43:00,616 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:00,635 - root - INFO - Epoch: 0, batch: 9, batch_size: 8. 
+Loss 4459.0087890625 
+
+2025-12-14 22:43:00,974 - simplenet.Simplenet - INFO - Correct score: 3814.86328125
+2025-12-14 22:43:00,974 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:00,992 - root - INFO - Epoch: 0, batch: 10, batch_size: 8. 
+Loss 3814.86328125 
+
+2025-12-14 22:43:01,331 - simplenet.Simplenet - INFO - Correct score: 2117.53271484375
+2025-12-14 22:43:01,331 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:01,350 - root - INFO - Epoch: 0, batch: 11, batch_size: 8. 
+Loss 2117.53271484375 
+
+2025-12-14 22:43:01,689 - simplenet.Simplenet - INFO - Correct score: 4.862938404083252
+2025-12-14 22:43:01,689 - simplenet.Simplenet - INFO - Altered score: 615.6995849609375
+2025-12-14 22:43:01,932 - root - INFO - Epoch: 0, batch: 12, batch_size: 8. 
+Loss 620.5625 
+
+2025-12-14 22:43:02,289 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:43:02,290 - simplenet.Simplenet - INFO - Altered score: 1443.907958984375
+2025-12-14 22:43:02,308 - root - INFO - Epoch: 0, batch: 13, batch_size: 8. 
+Loss 1443.907958984375 
+
+2025-12-14 22:43:02,654 - simplenet.Simplenet - INFO - Correct score: 0.04132315516471863
+2025-12-14 22:43:02,654 - simplenet.Simplenet - INFO - Altered score: 1094.4910888671875
+2025-12-14 22:43:02,673 - root - INFO - Epoch: 0, batch: 14, batch_size: 8. 
+Loss 1094.532470703125 
+
+2025-12-14 22:43:03,024 - simplenet.Simplenet - INFO - Correct score: 83.37857055664062
+2025-12-14 22:43:03,024 - simplenet.Simplenet - INFO - Altered score: 179.53907775878906
+2025-12-14 22:43:03,166 - root - INFO - Epoch: 0, batch: 15, batch_size: 8. 
+Loss 262.91766357421875 
+
+2025-12-14 22:43:03,515 - simplenet.Simplenet - INFO - Correct score: 896.6919555664062
+2025-12-14 22:43:03,515 - simplenet.Simplenet - INFO - Altered score: 3.2575926780700684
+2025-12-14 22:43:03,534 - root - INFO - Epoch: 0, batch: 16, batch_size: 8. 
+Loss 899.9495239257812 
+
+2025-12-14 22:43:03,873 - simplenet.Simplenet - INFO - Correct score: 1023.0501098632812
+2025-12-14 22:43:03,873 - simplenet.Simplenet - INFO - Altered score: 3.0089948177337646
+2025-12-14 22:43:03,891 - root - INFO - Epoch: 0, batch: 17, batch_size: 8. 
+Loss 1026.05908203125 
+
+2025-12-14 22:43:04,234 - simplenet.Simplenet - INFO - Correct score: 610.46533203125
+2025-12-14 22:43:04,234 - simplenet.Simplenet - INFO - Altered score: 12.474392890930176
+2025-12-14 22:43:04,252 - root - INFO - Epoch: 0, batch: 18, batch_size: 8. 
+Loss 622.939697265625 
+
+2025-12-14 22:43:04,597 - simplenet.Simplenet - INFO - Correct score: 1.2980502843856812
+2025-12-14 22:43:04,598 - simplenet.Simplenet - INFO - Altered score: 655.782470703125
+2025-12-14 22:43:04,616 - root - INFO - Epoch: 0, batch: 19, batch_size: 8. 
+Loss 657.0805053710938 
+
+2025-12-14 22:43:58,403 - simplenet.Simplenet - INFO - Correct score: 4985.1591796875
+2025-12-14 22:43:58,403 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:58,683 - root - INFO - Epoch: 0, batch: 1, batch_size: 8. 
+Loss 4985.1591796875 
+
+2025-12-14 22:43:59,377 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:43:59,377 - simplenet.Simplenet - INFO - Altered score: 78961.828125
+2025-12-14 22:43:59,396 - root - INFO - Epoch: 0, batch: 2, batch_size: 8. 
+Loss 78961.828125 
+
+2025-12-14 22:43:59,885 - simplenet.Simplenet - INFO - Correct score: 35440.8359375
+2025-12-14 22:43:59,886 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:43:59,904 - root - INFO - Epoch: 0, batch: 3, batch_size: 8. 
+Loss 35440.8359375 
+
+2025-12-14 22:44:00,248 - simplenet.Simplenet - INFO - Correct score: 9979.4794921875
+2025-12-14 22:44:00,248 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:44:00,266 - root - INFO - Epoch: 0, batch: 4, batch_size: 8. 
+Loss 9979.4794921875 
+
+2025-12-14 22:44:00,609 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:00,609 - simplenet.Simplenet - INFO - Altered score: 3033.998291015625
+2025-12-14 22:44:00,760 - root - INFO - Epoch: 0, batch: 5, batch_size: 8. 
+Loss 3033.998291015625 
+
+2025-12-14 22:44:01,108 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:01,108 - simplenet.Simplenet - INFO - Altered score: 2088.64404296875
+2025-12-14 22:44:01,396 - root - INFO - Epoch: 0, batch: 6, batch_size: 8. 
+Loss 2088.64404296875 
+
+2025-12-14 22:44:01,742 - simplenet.Simplenet - INFO - Correct score: 1331.9775390625
+2025-12-14 22:44:01,743 - simplenet.Simplenet - INFO - Altered score: 0.6607112288475037
+2025-12-14 22:44:01,871 - root - INFO - Epoch: 0, batch: 7, batch_size: 8. 
+Loss 1332.6383056640625 
+
+2025-12-14 22:44:02,434 - simplenet.Simplenet - INFO - Correct score: 1264.207763671875
+2025-12-14 22:44:02,434 - simplenet.Simplenet - INFO - Altered score: 0.13032150268554688
+2025-12-14 22:44:02,563 - root - INFO - Epoch: 0, batch: 8, batch_size: 8. 
+Loss 1264.338134765625 
+
+2025-12-14 22:44:03,494 - simplenet.Simplenet - INFO - Correct score: 5.7607102394104
+2025-12-14 22:44:03,494 - simplenet.Simplenet - INFO - Altered score: 636.7239990234375
+2025-12-14 22:44:03,690 - root - INFO - Epoch: 0, batch: 9, batch_size: 8. 
+Loss 642.4846801757812 
+
+2025-12-14 22:44:04,088 - simplenet.Simplenet - INFO - Correct score: 6.781961441040039
+2025-12-14 22:44:04,088 - simplenet.Simplenet - INFO - Altered score: 574.434814453125
+2025-12-14 22:44:04,248 - root - INFO - Epoch: 0, batch: 10, batch_size: 8. 
+Loss 581.216796875 
+
+2025-12-14 22:44:04,637 - simplenet.Simplenet - INFO - Correct score: 943.826416015625
+2025-12-14 22:44:04,638 - simplenet.Simplenet - INFO - Altered score: 0.6996833086013794
+2025-12-14 22:44:04,656 - root - INFO - Epoch: 0, batch: 11, batch_size: 8. 
+Loss 944.526123046875 
+
+2025-12-14 22:44:05,098 - simplenet.Simplenet - INFO - Correct score: 755.5784912109375
+2025-12-14 22:44:05,098 - simplenet.Simplenet - INFO - Altered score: 1.6715452671051025
+2025-12-14 22:44:05,117 - root - INFO - Epoch: 0, batch: 12, batch_size: 8. 
+Loss 757.2500610351562 
+
+2025-12-14 22:44:05,482 - simplenet.Simplenet - INFO - Correct score: 0.37197911739349365
+2025-12-14 22:44:05,482 - simplenet.Simplenet - INFO - Altered score: 823.9087524414062
+2025-12-14 22:44:05,501 - root - INFO - Epoch: 0, batch: 13, batch_size: 8. 
+Loss 824.28076171875 
+
+2025-12-14 22:44:05,931 - simplenet.Simplenet - INFO - Correct score: 0.5827093124389648
+2025-12-14 22:44:05,931 - simplenet.Simplenet - INFO - Altered score: 780.1272583007812
+2025-12-14 22:44:05,950 - root - INFO - Epoch: 0, batch: 14, batch_size: 8. 
+Loss 780.7099609375 
+
+2025-12-14 22:44:06,326 - simplenet.Simplenet - INFO - Correct score: 571.607666015625
+2025-12-14 22:44:06,326 - simplenet.Simplenet - INFO - Altered score: 2.999781847000122
+2025-12-14 22:44:06,460 - root - INFO - Epoch: 0, batch: 15, batch_size: 8. 
+Loss 574.607421875 
+
+2025-12-14 22:44:07,087 - simplenet.Simplenet - INFO - Correct score: 555.1372680664062
+2025-12-14 22:44:07,087 - simplenet.Simplenet - INFO - Altered score: 3.770264148712158
+2025-12-14 22:44:07,211 - root - INFO - Epoch: 0, batch: 16, batch_size: 8. 
+Loss 558.9075317382812 
+
+2025-12-14 22:44:07,687 - simplenet.Simplenet - INFO - Correct score: 1.8771169185638428
+2025-12-14 22:44:07,688 - simplenet.Simplenet - INFO - Altered score: 606.3565673828125
+2025-12-14 22:44:07,706 - root - INFO - Epoch: 0, batch: 17, batch_size: 8. 
+Loss 608.2337036132812 
+
+2025-12-14 22:44:08,050 - simplenet.Simplenet - INFO - Correct score: 5.319321155548096
+2025-12-14 22:44:08,050 - simplenet.Simplenet - INFO - Altered score: 481.66583251953125
+2025-12-14 22:44:08,195 - root - INFO - Epoch: 0, batch: 18, batch_size: 8. 
+Loss 486.98516845703125 
+
+2025-12-14 22:44:08,554 - simplenet.Simplenet - INFO - Correct score: 672.5188598632812
+2025-12-14 22:44:08,555 - simplenet.Simplenet - INFO - Altered score: 0.5609023571014404
+2025-12-14 22:44:08,573 - root - INFO - Epoch: 0, batch: 19, batch_size: 8. 
+Loss 673.0797729492188 
+
+2025-12-14 22:44:08,920 - simplenet.Simplenet - INFO - Correct score: 598.3826293945312
+2025-12-14 22:44:08,920 - simplenet.Simplenet - INFO - Altered score: 1.185655117034912
+2025-12-14 22:44:08,939 - root - INFO - Epoch: 0, batch: 20, batch_size: 8. 
+Loss 599.5682983398438 
+
+2025-12-14 22:44:09,287 - simplenet.Simplenet - INFO - Correct score: 2.09859037399292
+2025-12-14 22:44:09,287 - simplenet.Simplenet - INFO - Altered score: 516.0596923828125
+2025-12-14 22:44:09,305 - root - INFO - Epoch: 0, batch: 21, batch_size: 8. 
+Loss 518.1582641601562 
+
+2025-12-14 22:44:09,651 - simplenet.Simplenet - INFO - Correct score: 6.01729154586792
+2025-12-14 22:44:09,651 - simplenet.Simplenet - INFO - Altered score: 393.7861022949219
+2025-12-14 22:44:09,800 - root - INFO - Epoch: 0, batch: 22, batch_size: 8. 
+Loss 399.80340576171875 
+
+2025-12-14 22:44:10,151 - simplenet.Simplenet - INFO - Correct score: 443.8465576171875
+2025-12-14 22:44:10,152 - simplenet.Simplenet - INFO - Altered score: 3.511955738067627
+2025-12-14 22:44:10,170 - root - INFO - Epoch: 0, batch: 23, batch_size: 8. 
+Loss 447.3585205078125 
+
+2025-12-14 22:44:10,514 - simplenet.Simplenet - INFO - Correct score: 320.2183532714844
+2025-12-14 22:44:10,514 - simplenet.Simplenet - INFO - Altered score: 8.6168212890625
+2025-12-14 22:44:10,663 - root - INFO - Epoch: 0, batch: 24, batch_size: 8. 
+Loss 328.8351745605469 
+
+2025-12-14 22:44:11,068 - simplenet.Simplenet - INFO - Correct score: 0.32332688570022583
+2025-12-14 22:44:11,068 - simplenet.Simplenet - INFO - Altered score: 569.780029296875
+2025-12-14 22:44:11,087 - root - INFO - Epoch: 0, batch: 25, batch_size: 8. 
+Loss 570.1033325195312 
+
+2025-12-14 22:44:11,435 - simplenet.Simplenet - INFO - Correct score: 0.18518272042274475
+2025-12-14 22:44:11,436 - simplenet.Simplenet - INFO - Altered score: 561.0919799804688
+2025-12-14 22:44:11,454 - root - INFO - Epoch: 0, batch: 26, batch_size: 8. 
+Loss 561.2771606445312 
+
+2025-12-14 22:44:11,532 - simplenet.Simplenet - INFO - Correct score: 64.53520965576172
+2025-12-14 22:44:11,533 - simplenet.Simplenet - INFO - Altered score: 0.011902570724487305
+2025-12-14 22:44:11,670 - root - INFO - Epoch: 0, batch: 27, batch_size: 8. 
+Loss 64.54711151123047 
+
+2025-12-14 22:44:11,671 - root - INFO - Epoch: 0. Best lost so far: 64.54711151123047
+2025-12-14 22:44:12,020 - simplenet.Simplenet - INFO - Correct score: 1339.1650390625
+2025-12-14 22:44:12,020 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:44:12,038 - root - INFO - Epoch: 1, batch: 1, batch_size: 8. 
+Loss 1339.1650390625 
+
+2025-12-14 22:44:12,382 - simplenet.Simplenet - INFO - Correct score: 1156.65869140625
+2025-12-14 22:44:12,382 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:44:12,400 - root - INFO - Epoch: 1, batch: 2, batch_size: 8. 
+Loss 1156.65869140625 
+
+2025-12-14 22:44:12,743 - simplenet.Simplenet - INFO - Correct score: 129.00997924804688
+2025-12-14 22:44:12,744 - simplenet.Simplenet - INFO - Altered score: 39.874107360839844
+2025-12-14 22:44:12,762 - root - INFO - Epoch: 1, batch: 3, batch_size: 8. 
+Loss 168.88409423828125 
+
+2025-12-14 22:44:13,105 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:13,105 - simplenet.Simplenet - INFO - Altered score: 1151.125732421875
+2025-12-14 22:44:13,123 - root - INFO - Epoch: 1, batch: 4, batch_size: 8. 
+Loss 1151.125732421875 
+
+2025-12-14 22:44:13,466 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:13,466 - simplenet.Simplenet - INFO - Altered score: 1438.84033203125
+2025-12-14 22:44:13,484 - root - INFO - Epoch: 1, batch: 5, batch_size: 8. 
+Loss 1438.84033203125 
+
+2025-12-14 22:44:13,826 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:13,826 - simplenet.Simplenet - INFO - Altered score: 704.3726806640625
+2025-12-14 22:44:13,844 - root - INFO - Epoch: 1, batch: 6, batch_size: 8. 
+Loss 704.3726806640625 
+
+2025-12-14 22:44:14,187 - simplenet.Simplenet - INFO - Correct score: 810.2327880859375
+2025-12-14 22:44:14,187 - simplenet.Simplenet - INFO - Altered score: 0.03337925672531128
+2025-12-14 22:44:14,205 - root - INFO - Epoch: 1, batch: 7, batch_size: 8. 
+Loss 810.2661743164062 
+
+2025-12-14 22:44:14,547 - simplenet.Simplenet - INFO - Correct score: 1294.2996826171875
+2025-12-14 22:44:14,547 - simplenet.Simplenet - INFO - Altered score: 0.0
+2025-12-14 22:44:14,566 - root - INFO - Epoch: 1, batch: 8, batch_size: 8. 
+Loss 1294.2996826171875 
+
+2025-12-14 22:44:14,908 - simplenet.Simplenet - INFO - Correct score: 1036.0931396484375
+2025-12-14 22:44:14,908 - simplenet.Simplenet - INFO - Altered score: 1.8332926034927368
+2025-12-14 22:44:14,927 - root - INFO - Epoch: 1, batch: 9, batch_size: 8. 
+Loss 1037.9263916015625 
+
+2025-12-14 22:44:15,311 - simplenet.Simplenet - INFO - Correct score: 44.107662200927734
+2025-12-14 22:44:15,312 - simplenet.Simplenet - INFO - Altered score: 113.33561706542969
+2025-12-14 22:44:15,330 - root - INFO - Epoch: 1, batch: 10, batch_size: 8. 
+Loss 157.4432830810547 
+
+2025-12-14 22:44:15,676 - simplenet.Simplenet - INFO - Correct score: 0.0
+2025-12-14 22:44:15,676 - simplenet.Simplenet - INFO - Altered score: 766.993408203125
+2025-12-14 22:44:15,695 - root - INFO - Epoch: 1, batch: 11, batch_size: 8. 
+Loss 766.993408203125 
+
+2025-12-14 22:44:16,037 - simplenet.Simplenet - INFO - Correct score: 0.0009316802024841309
+2025-12-14 22:44:16,038 - simplenet.Simplenet - INFO - Altered score: 586.280517578125
+2025-12-14 22:44:16,056 - root - INFO - Epoch: 1, batch: 12, batch_size: 8. 
+Loss 586.2814331054688 
+
+2025-12-14 22:44:16,399 - simplenet.Simplenet - INFO - Correct score: 320.94207763671875
+2025-12-14 22:44:16,399 - simplenet.Simplenet - INFO - Altered score: 3.2141873836517334
+2025-12-14 22:44:16,417 - root - INFO - Epoch: 1, batch: 13, batch_size: 8. 
+Loss 324.15625 
+
+2025-12-14 22:44:16,761 - simplenet.Simplenet - INFO - Correct score: 438.74200439453125
+2025-12-14 22:44:16,761 - simplenet.Simplenet - INFO - Altered score: 0.3982132077217102
+2025-12-14 22:44:16,779 - root - INFO - Epoch: 1, batch: 14, batch_size: 8. 
+Loss 439.1402282714844 
+
+2025-12-14 22:44:17,122 - simplenet.Simplenet - INFO - Correct score: 25.10427474975586
+2025-12-14 22:44:17,122 - simplenet.Simplenet - INFO - Altered score: 149.25067138671875
+2025-12-14 22:44:17,141 - root - INFO - Epoch: 1, batch: 15, batch_size: 8. 
+Loss 174.35494995117188 
+
+2025-12-14 22:44:17,489 - simplenet.Simplenet - INFO - Correct score: 4.600286483764648
+2025-12-14 22:44:17,489 - simplenet.Simplenet - INFO - Altered score: 271.96038818359375
+2025-12-14 22:44:17,508 - root - INFO - Epoch: 1, batch: 16, batch_size: 8. 
+Loss 276.5606689453125 
+
+2025-12-14 22:44:17,850 - simplenet.Simplenet - INFO - Correct score: 219.3545684814453
+2025-12-14 22:44:17,850 - simplenet.Simplenet - INFO - Altered score: 8.202165603637695
+2025-12-14 22:44:17,868 - root - INFO - Epoch: 1, batch: 17, batch_size: 8. 
+Loss 227.55673217773438 
+
+2025-12-14 22:44:18,212 - simplenet.Simplenet - INFO - Correct score: 198.0345458984375
+2025-12-14 22:44:18,213 - simplenet.Simplenet - INFO - Altered score: 16.634502410888672
+2025-12-14 22:44:18,231 - root - INFO - Epoch: 1, batch: 18, batch_size: 8. 
+Loss 214.66905212402344 
+
+2025-12-14 22:44:18,576 - simplenet.Simplenet - INFO - Correct score: 0.26475465297698975
+2025-12-14 22:44:18,576 - simplenet.Simplenet - INFO - Altered score: 446.37554931640625
+2025-12-14 22:44:18,594 - root - INFO - Epoch: 1, batch: 19, batch_size: 8. 
+Loss 446.6402893066406 
+
+2025-12-14 22:44:18,938 - simplenet.Simplenet - INFO - Correct score: 2.332462787628174
+2025-12-14 22:44:18,938 - simplenet.Simplenet - INFO - Altered score: 293.7777099609375
+2025-12-14 22:44:18,956 - root - INFO - Epoch: 1, batch: 20, batch_size: 8. 
+Loss 296.11016845703125 
+
+2025-12-14 22:44:19,300 - simplenet.Simplenet - INFO - Correct score: 430.6086120605469
+2025-12-14 22:44:19,301 - simplenet.Simplenet - INFO - Altered score: 0.23640519380569458
+2025-12-14 22:44:19,319 - root - INFO - Epoch: 1, batch: 21, batch_size: 8. 
+Loss 430.84503173828125 
+
+2025-12-14 22:44:19,662 - simplenet.Simplenet - INFO - Correct score: 466.336181640625
+2025-12-14 22:44:19,662 - simplenet.Simplenet - INFO - Altered score: 0.022954106330871582
+2025-12-14 22:44:19,680 - root - INFO - Epoch: 1, batch: 22, batch_size: 8. 
+Loss 466.359130859375 
+
+2025-12-14 22:44:20,023 - simplenet.Simplenet - INFO - Correct score: 28.221254348754883
+2025-12-14 22:44:20,023 - simplenet.Simplenet - INFO - Altered score: 123.33270263671875
+2025-12-14 22:44:20,041 - root - INFO - Epoch: 1, batch: 23, batch_size: 8. 
+Loss 151.553955078125 
+
+2025-12-14 22:44:20,384 - simplenet.Simplenet - INFO - Correct score: 1.311751127243042
+2025-12-14 22:44:20,384 - simplenet.Simplenet - INFO - Altered score: 326.15185546875
+2025-12-14 22:44:20,403 - root - INFO - Epoch: 1, batch: 24, batch_size: 8. 
+Loss 327.4635925292969 
+
+2025-12-14 22:44:20,745 - simplenet.Simplenet - INFO - Correct score: 85.9732666015625
+2025-12-14 22:44:20,746 - simplenet.Simplenet - INFO - Altered score: 42.77960205078125
+2025-12-14 22:44:20,764 - root - INFO - Epoch: 1, batch: 25, batch_size: 8. 
+Loss 128.75286865234375 
+
+2025-12-14 22:44:21,106 - simplenet.Simplenet - INFO - Correct score: 253.06861877441406
+2025-12-14 22:44:21,107 - simplenet.Simplenet - INFO - Altered score: 3.895606756210327
+2025-12-14 22:44:21,125 - root - INFO - Epoch: 1, batch: 26, batch_size: 8. 
+Loss 256.9642333984375 
+
+2025-12-14 22:44:21,175 - simplenet.Simplenet - INFO - Correct score: 4.073632717132568
+2025-12-14 22:44:21,176 - simplenet.Simplenet - INFO - Altered score: 14.186147689819336
+2025-12-14 22:44:21,300 - root - INFO - Epoch: 1, batch: 27, batch_size: 8. 
+Loss 18.259780883789062 
+
+2025-12-14 22:44:21,301 - root - INFO - Epoch: 1. Best lost so far: 18.259780883789062
