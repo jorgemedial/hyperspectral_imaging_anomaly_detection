@@ -1,5 +1,7 @@
 # Implementación propia y validación del modelo SimpleNet para detección y localización de anomalías
 
+## Curso Deep Learning 3. Ed - Jorge Medina Alías
+
 ## 1. Introducción y objetivo del trabajo
 
 El objetivo de este trabajo es implementar desde cero y validar experimentalmente el modelo propuesto en el artículo [**“SimpleNet: A Simple Network for Image Anomaly Detection and Localization” (Liu et al., 2023)**](https://arxiv.org/abs/2303.15140), implementando de cero la solución propuesta en el artículo.
