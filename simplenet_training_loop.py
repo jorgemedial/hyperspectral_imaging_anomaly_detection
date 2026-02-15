@@ -71,9 +71,7 @@ if __name__ == "__main__":
             no_of_batches += 1
             root_logger.info(f"Epoch: {i}, batch: {batch_idx}, batch_size: {batch_size}. \nLoss {loss} \n")
 
-        if epoch_loss < best_epoch_loss:
-                best_epoch_loss = epoch_loss
-                torch.save(Simplenet.state_dict(), "model.pth")
-        root_logger.info(f"Epoch: {i}. Best lost so far: {best_epoch_loss/no_of_batches}")
+        root_logger.info(f"Epoch: {i}. Loss: {epoch_loss/no_of_batches}")
     
+    torch.save(Simplenet.state_dict(), "model.pth")
    
