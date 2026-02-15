@@ -73,5 +73,5 @@ if __name__ == "__main__":
 
         root_logger.info(f"Epoch: {i}. Loss: {epoch_loss/no_of_batches}")
     
-    torch.save(Simplenet.state_dict(), "model.pth")
+        torch.save(Simplenet.state_dict(), "model.pth")
    
