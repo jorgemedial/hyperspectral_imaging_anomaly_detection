@@ -1,5 +1,5 @@
 {
-    "total_epochs": 100,
+    "total_epochs": 160,
     "category": "bottle",
     "anomaly_type": "contamination"
 }

@@ -39,7 +39,7 @@ root_logger.addHandler(file_handler)
 
 train_dataset = MVTECTrainset(category=training_config["category"])
 
-batch_size = 8
+batch_size = 4
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
