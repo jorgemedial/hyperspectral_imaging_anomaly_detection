@@ -1,5 +1,5 @@
 {
     "total_epochs": 160,
-    "category": "bottle",
-    "anomaly_type": "contamination"
+    "category": "leather",
+    "anomaly_type": "color"
 }
