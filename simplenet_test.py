@@ -53,22 +53,22 @@ if __name__ == "__main__":
             frame = anomalous_dataset.get_image_as_frame(i)
             data = anomalous_dataset.__getitem__(i).unsqueeze(0)
             data = data.to(device)             
-            outputs = simplenet(data)
-            for output in outputs:
-                # Original image
-                shape = frame.shape[:2]
+            output = simplenet(data)[0]
+        
+            # Original image
+            shape = frame.shape[:2]
 
-                # Heatmap
-                anomaly_map = process_output(output)
-                anomaly_heatmap = export_as_image(anomaly_map)
-                anomaly_heatmap = cv2.resize(anomaly_heatmap, shape)
+            # Heatmap
+            anomaly_map = process_output(output)
+            anomaly_heatmap = export_as_image(anomaly_map)
+            anomaly_heatmap = cv2.resize(anomaly_heatmap, shape)
 
-                # Fusion
-                blend = BLEND_RATIO * anomaly_heatmap + (1 - BLEND_RATIO) * frame
-                full_picture = np.concat([blend, anomaly_heatmap], axis=1)
+            # Fusion
+            blend = BLEND_RATIO * anomaly_heatmap + (1 - BLEND_RATIO) * frame
+            full_picture = np.concat([blend, anomaly_heatmap], axis=1)
 
-                filename = anomalous_dataset.filename_from_index(i)
-                cv2.imwrite(filename, full_picture)
+            filename = anomalous_dataset.filename_from_index(i)
+            cv2.imwrite(filename, full_picture)
     
 
 
