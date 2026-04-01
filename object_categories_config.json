@@ -13,7 +13,7 @@
     },
     "carpet": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937484-1629959013/carpet.tar.xz",
-        "download": true
+        "download": false
     },
     "grid": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937487-1629959044/grid.tar.xz",
@@ -25,7 +25,7 @@
     },
     "leather": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937607-1629959262/leather.tar.xz",
-        "download": false
+        "download": true
     },
     "metal_nut": {
         "url": "https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f283/download/420937637-1629959294/metal_nut.tar.xz",

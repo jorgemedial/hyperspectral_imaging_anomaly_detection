@@ -33,14 +33,17 @@ def export_as_image(anomaly_map: torch.Tensor):
     arr = np.maximum(0, arr - 0.5) + 1 # values below 0.5 are not considered anomalies due to the loss function definition.
     arr = np.minimum(255, np.log(arr) * 1000).astype(np.uint8) # The arr values are scaled up for visualization. Saturates at arr = 0.79
     
-    return cv2.applyColorMap(arr, cv2.COLORMAP_JET)      
+    heatmap = cv2.applyColorMap(arr, cv2.COLORMAP_MAGMA)    
+    
+    # Merge into BGRA
+    return np.dstack((heatmap, arr))  
 
 if __name__ == "__main__":
 
-    model_filepath = "model.pth"
+    model_filepath = "models/model_leather.pth"
 
     simplenet = Simplenet()
-    simplenet.load_state_dict(torch.load(model_filepath))
+    simplenet.load_state_dict(torch.load(model_filepath, map_location=torch.device('cpu')))
 
     device = torch.device('cpu')
     simplenet.eval()
@@ -59,13 +62,12 @@ if __name__ == "__main__":
             shape = frame.shape[:2]
 
             # Heatmap
-            anomaly_map = process_output(output)
-            anomaly_heatmap = export_as_image(anomaly_map)
+            anomaly_heatmap = process_output(output)
+            anomaly_heatmap = export_as_image(anomaly_heatmap)
             anomaly_heatmap = cv2.resize(anomaly_heatmap, shape)
 
-            # Fusion
-            blend = BLEND_RATIO * anomaly_heatmap + (1 - BLEND_RATIO) * frame
-            full_picture = np.concat([blend, anomaly_heatmap], axis=1)
+            # Overlap
+            full_picture = np.concat([frame, anomaly_heatmap[:, :, :3]], axis=1)
 
             filename = anomalous_dataset.filename_from_index(i)
             cv2.imwrite(filename, full_picture)

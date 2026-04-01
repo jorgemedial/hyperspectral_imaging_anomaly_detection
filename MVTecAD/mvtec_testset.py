@@ -30,6 +30,7 @@ class MVTECTestset(Dataset):
     
     def get_image_as_frame(self, index):
         return cv2.imread(self.input_path / Path(f"{index:>03}.png"))
+       
     
 
     def filename_from_index(self, index: int):
